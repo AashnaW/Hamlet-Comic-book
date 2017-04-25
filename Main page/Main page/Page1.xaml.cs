@@ -13,24 +13,33 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Main_page
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Page1 : Page
     {
-        public MainPage()
+        public Page1()
         {
             this.InitializeComponent();
-           
         }
 
         private void Forward_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(typeof(Page1));
+            
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            Frame1.Navigate(typeof(MainPage));
+        }
+
+        private void Menu_Click(object sender, RoutedEventArgs e)
+        {
+            Frame1.Navigate(typeof(MainPage));
         }
     }
 }
