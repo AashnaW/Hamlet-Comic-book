@@ -39,7 +39,7 @@ namespace Main_page
 
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
-            Frame1.Navigate(typeof(MainPage));
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
         }
     }
 }

@@ -25,7 +25,6 @@ namespace Main_page
         public MainPage()
         {
             this.InitializeComponent();
-           
         }
 
         private void Forward_Click(object sender, RoutedEventArgs e)
