@@ -20,21 +20,11 @@ namespace Main_page
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Page1 : Page
+    public sealed partial class CreditsPage : Page
     {
-        public Page1()
+        public CreditsPage()
         {
             this.InitializeComponent();
-        }
-
-        private void Forward_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void Back_Click(object sender, RoutedEventArgs e)
-        {
-            Frame1.Navigate(typeof(MainPage));
         }
 
         private void Menu_Click(object sender, RoutedEventArgs e)
@@ -46,12 +36,17 @@ namespace Main_page
         {
             if (BackToMain.IsSelected)
             {
-                Frame1.Navigate(typeof(MainPage));
+                CreditsFrame.Navigate(typeof(MainPage));
             }
             else if (Credits.IsSelected)
             {
-                Frame1.Navigate(typeof(CreditsPage));
+                CreditsFrame.Navigate(typeof(CreditsPage));
             }
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -8,8 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Assets/hamlet-320x203.png" Stretch="UniformToFill"/>
         <RelativePanel>
-            <Button Name="Forward" MinWidth="500" MinHeight="720" RelativePanel.AlignRightWithPanel="True" Click="Forward_Click"/>
+            <Button Name="Forward" MinWidth="500" MinHeight="720" RelativePanel.AlignRightWithPanel="True" Click="Forward_Click" Background="Transparent"/>
         </RelativePanel>
         <Frame Name ="MainFrame"/>
     </Grid>
