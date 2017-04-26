@@ -46,7 +46,10 @@ namespace Main_page
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-
+            if (CreditsFrame.CanGoBack)
+            {
+                CreditsFrame.GoBack();
+            }
         }
     }
 }
