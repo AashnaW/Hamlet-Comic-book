@@ -41,5 +41,13 @@ namespace Main_page
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
         }
+
+        private void Menu_DropDownChange(object sender, SelectionChangedEventArgs e)
+        {
+            if (BackToMain.IsSelected)
+            {
+                Frame1.Navigate(typeof(MainPage));
+            }
+        }
     }
 }

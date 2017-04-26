@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <RelativePanel>
-            <Button Name="Forward" Width="500" Height="720" RelativePanel.AlignRightWithPanel="True" Click="Forward_Click"/>
+            <Button Name="Forward" MinWidth="500" MinHeight="720" RelativePanel.AlignRightWithPanel="True" Click="Forward_Click"/>
         </RelativePanel>
         <Frame Name ="MainFrame"/>
     </Grid>
