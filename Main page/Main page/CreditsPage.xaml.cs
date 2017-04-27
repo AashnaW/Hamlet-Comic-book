@@ -36,19 +36,19 @@ namespace Main_page
         {
             if (BackToMain.IsSelected)
             {
-                CreditsFrame.Navigate(typeof(MainPage));
+                Frame.Navigate(typeof(MainPage));
             }
             else if (Credits.IsSelected)
             {
-                CreditsFrame.Navigate(typeof(CreditsPage));
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            if (CreditsFrame.CanGoBack)
+            if (Frame.CanGoBack)
             {
-                CreditsFrame.GoBack();
+                Frame.GoBack();
             }
         }
     }

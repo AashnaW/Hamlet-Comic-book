@@ -34,7 +34,7 @@ namespace Main_page
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            Frame1.Navigate(typeof(MainPage));
+            Frame.Navigate(typeof(MainPage));
         }
 
         private void Menu_Click(object sender, RoutedEventArgs e)
@@ -46,11 +46,11 @@ namespace Main_page
         {
             if (BackToMain.IsSelected)
             {
-                Frame1.Navigate(typeof(MainPage));
+                Frame.Navigate(typeof(MainPage));
             }
             else if (Credits.IsSelected)
             {
-                Frame1.Navigate(typeof(CreditsPage));
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
     }

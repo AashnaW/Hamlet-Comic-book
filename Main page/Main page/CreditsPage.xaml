@@ -39,6 +39,5 @@
                 </SplitView.Content>
             </SplitView>
         </RelativePanel>
-        <Frame Name="CreditsFrame"/>
     </Grid>
 </Page>
