@@ -101,6 +101,30 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page 2.xaml.cs">
+      <DependentUpon>Page 2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page 3.xaml.cs">
+      <DependentUpon>Page 3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page 4.xaml.cs">
+      <DependentUpon>Page 4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page 5.xaml.cs">
+      <DependentUpon>Page 5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page 6.xaml.cs">
+      <DependentUpon>Page 6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page 7.xaml.cs">
+      <DependentUpon>Page 7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page 8.xaml.cs">
+      <DependentUpon>Page 8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page 9.xaml.cs">
+      <DependentUpon>Page 9.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
     </Compile>
@@ -144,6 +168,38 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Page 2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page 3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page 4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page 5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page 6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page 7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page 8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page 9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Page1.xaml">
       <SubType>Designer</SubType>
