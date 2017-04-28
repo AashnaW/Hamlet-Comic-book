@@ -26,5 +26,10 @@ namespace Main_page
         {
             this.InitializeComponent();
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Page_9));
+        }
     }
 }

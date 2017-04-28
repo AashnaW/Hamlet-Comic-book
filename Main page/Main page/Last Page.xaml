@@ -13,6 +13,7 @@
                        Stretch="Fill"
                        MinWidth="1280"
                        MinHeight="1920" />
+            <Button Name="Back" MinWidth="750" MinHeight="2200"  RelativePanel.AlignLeftWithPanel="True" Click="Back_Click" Background="Transparent"/>
         </Grid>
     </Viewbox>
 </Page>

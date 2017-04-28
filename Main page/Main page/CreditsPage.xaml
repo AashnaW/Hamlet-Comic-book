@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Aquamarine">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -15,7 +15,7 @@
 
         <RelativePanel MinWidth="1280">
             <Button Name="Menu" MinWidth="50"  MinHeight="50" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" FontFamily ="Segoe MDL2 Assets" Content="&#xE71D;" Click="Menu_Click" FontSize="40" Grid.Row="0"/>
-            <Button Name="Back" MinWidth="300" MinHeight="720" RelativePanel.AlignLeftWithPanel="True" Click="Back_Click" />
+            <Button Name="Back" MinWidth="300" MinHeight="720" RelativePanel.AlignLeftWithPanel="True" Click="Back_Click" Background="Transparent"/>
 
             <SplitView DisplayMode="Overlay" Name="MySplitView" RelativePanel.AlignHorizontalCenterWith="Menu" RelativePanel.Below="Menu" Width="115" Height="200">
                 <SplitView.Pane>
@@ -38,6 +38,13 @@
                     <TextBlock Name="MyTextBlock"/>
                 </SplitView.Content>
             </SplitView>
+            <StackPanel RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" Orientation="Vertical">
+                <TextBlock Name ="illustrations" Text="Illustrations by Jennifer Lee and Julie White" 
+                       FontSize="45" FontFamily="Viner Hand ITC" FontWeight="Bold"/>
+                <TextBlock Text="Illustrations by Daniel Choi and Aashna Wadhwa"
+                       FontSize="45" FontFamily="Viner Hand ITC" FontWeight="Bold"/>
+            </StackPanel>
         </RelativePanel>
+
     </Grid>
 </Page>
