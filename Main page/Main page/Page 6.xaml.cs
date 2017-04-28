@@ -26,5 +26,31 @@ namespace Main_page
         {
             this.InitializeComponent();
         }
+        private void Forward_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Page_7));
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Page_5));
+        }
+
+        private void Menu_Click(object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+        }
+
+        private void Menu_DropDownChange(object sender, SelectionChangedEventArgs e)
+        {
+            if (BackToMain.IsSelected)
+            {
+                Frame.Navigate(typeof(MainPage));
+            }
+            else if (Credits.IsSelected)
+            {
+                Frame.Navigate(typeof(CreditsPage));
+            }
+        }
     }
 }

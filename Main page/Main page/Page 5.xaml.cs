@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +26,40 @@ namespace Main_page
         public Page_5()
         {
             this.InitializeComponent();
+
+            SecondBorder.BorderBrush = new SolidColorBrush(Colors.Transparent);
+        }
+        private void Forward_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Page_6));
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Page_4));
+        }
+
+        private void Menu_Click(object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+        }
+
+        private void Menu_DropDownChange(object sender, SelectionChangedEventArgs e)
+        {
+            if (BackToMain.IsSelected)
+            {
+                Frame.Navigate(typeof(MainPage));
+            }
+            else if (Credits.IsSelected)
+            {
+                Frame.Navigate(typeof(CreditsPage));
+            }
+        }
+        private void SoundTwoPlayer_Click(object sender, RoutedEventArgs e)
+        {
+            SecondBorder.BorderBrush = new SolidColorBrush(Colors.Black);
+            SoundTwo.Play();
+
         }
     }
 }

@@ -21,9 +21,14 @@
                        MinWidth="1280"
                        MinHeight="1920" />
                 <Button Name="Menu" MinWidth="200"  MinHeight="200" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" FontFamily ="Segoe MDL2 Assets" Content="&#xE71D;" Click="Menu_Click" FontSize="40" Grid.Row="0"/>
-                <Button Name="Forward" MinWidth="540" MinHeight="1920" RelativePanel.AlignRightWithPanel="True"  Click="Forward_Click" Background="Transparent"/>
-                <Button Name="Back" MinWidth="540" MinHeight="1920"  RelativePanel.AlignLeftWithPanel="True" Click="Back_Click" Background="Transparent"/>
+                <Button Name="Forward" MinWidth="750" MinHeight="2200" RelativePanel.AlignRightWithPanel="True"  Click="Forward_Click" Background="Transparent"/>
+                <Button Name="Back" MinWidth="750" MinHeight="2200"  RelativePanel.AlignLeftWithPanel="True" Click="Back_Click" Background="Transparent"/>
 
+                <MediaElement x:Name="Sword" Source="Sound/Sword Fight - Sword Fight.mp3" AutoPlay="True" Height="200" Width="200" Volume="0.5" RenderTransformOrigin="3.965,3.216" Margin="1237,246,-1237,-246" IsLooping="True"/>
+
+                <Border Name ="SecondBorder" BorderThickness="10" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" MinHeight="755" MinWidth="1700" Margin="0,0,0,-1476" Height="618"/>
+                <MediaElement x:Name="SoundTwo" Source="Sound/Osric 277.m4a" AutoPlay="False" Height="200" Width="200" Volume="1" RenderTransformOrigin="3.965,3.216" Margin="1237,246,-1237,-246"/>
+                <Button x:Name="SoundTwoPlayer" Height="200" Width="200" Content="Play Sound" Click="SoundTwoPlayer_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="755,1255,-717,-1217"/>
 
                 <SplitView DisplayMode="Overlay" Name="MySplitView" RelativePanel.AlignHorizontalCenterWith="Menu" RelativePanel.Below="Menu" Width="115" Height="200">
                     <SplitView.Pane>

@@ -8,9 +8,9 @@
     mc:Ignorable="d">
     <Viewbox>
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" MinWidth="1280" MinHeight="720">
-            <Image Source="Assets/hamlet-320x203.png" Stretch="UniformToFill"/>
+            <Image Source="Assets/hamlet cover jennifer's version.jpg" Stretch="Fill"/>
             <RelativePanel>
-                <Button Name="Forward" MinWidth="500" MinHeight="1920" RelativePanel.AlignRightWithPanel="True" Click="Forward_Click" Background="Transparent"/>
+                <Button Name="Forward" MinWidth="1250" MinHeight="3300" RelativePanel.AlignRightWithPanel="True" Click="Forward_Click" Background="Transparent"/>
             </RelativePanel>
             <Frame Name ="MainFrame"/>
         </Grid>

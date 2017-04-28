@@ -98,6 +98,9 @@
     <Compile Include="CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Last Page.xaml.cs">
+      <DependentUpon>Last Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -137,7 +140,9 @@
     <None Include="Main page_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\hamlet cover jennifer%27s version.jpg" />
     <Content Include="Assets\hamlet-320x203.png" />
+    <Content Include="Assets\last page-01.png" />
     <Content Include="Assets\Page 1.jpg" />
     <Content Include="Assets\Page 2.jpg" />
     <Content Include="Assets\Page 3.jpg" />
@@ -145,6 +150,7 @@
     <Content Include="Assets\Page 5.jpg" />
     <Content Include="Assets\Page 6.jpg" />
     <Content Include="Assets\Page 7.jpg" />
+    <Content Include="Assets\Page 8 %281%29.jpg" />
     <Content Include="Assets\Page 8.jpg" />
     <Content Include="Assets\Page 9.jpg" />
     <Content Include="Properties\Default.rd.xml" />
@@ -155,6 +161,29 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Sound\Cladius 273 %281%29.m4a" />
+    <Content Include="Sound\Cladius_273.wav" />
+    <Content Include="Sound\Claudius 277 2.m4a" />
+    <Content Include="Sound\Claudius 277.m4a" />
+    <Content Include="Sound\Finale.m4a" />
+    <Content Include="Sound\grunt.m4a" />
+    <Content Include="Sound\Hamlet - Op..mp3" />
+    <Content Include="Sound\Hamlet 273.m4a" />
+    <Content Include="Sound\Hamlet 275.m4a" />
+    <Content Include="Sound\Hamlet 277.m4a" />
+    <Content Include="Sound\Hamlet 281 2.m4a" />
+    <Content Include="Sound\Hamlet 281.m4a" />
+    <Content Include="Sound\Horatio 283.m4a" />
+    <Content Include="Sound\King 275.m4a" />
+    <Content Include="Sound\Laertes 273.m4a" />
+    <Content Include="Sound\Laertes 279 2.m4a" />
+    <Content Include="Sound\Laertes 279.m4a" />
+    <Content Include="Sound\Laertes 281 2.m4a" />
+    <Content Include="Sound\Laertes 281.m4a" />
+    <Content Include="Sound\Osric 277.m4a" />
+    <Content Include="Sound\Queen 277.m4a" />
+    <Content Include="Sound\Queen 279.m4a" />
+    <Content Include="Sound\Sword Fight - Sword Fight.mp3" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -162,6 +191,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="CreditsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Last Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
