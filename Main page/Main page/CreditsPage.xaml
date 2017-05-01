@@ -19,9 +19,17 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <StackPanel RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" Orientation="Vertical">
+            <TextBlock Name ="illustrations" Text="Illustrations by Jennifer Lee and Julie White" 
+                       FontSize="100" FontFamily="Viner Hand ITC" FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBlock Text="Coding by Daniel Choi and Aashna Wadhwa"
+                       FontSize="100" FontFamily="Viner Hand ITC" FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBlock Text="Voices by Daniel Choi"
+                       FontSize="100" FontFamily="Viner Hand ITC" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </StackPanel>
         <RelativePanel MinWidth="1280">
             <Button Name="Menu" MinWidth="50"  MinHeight="50" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" FontFamily ="Segoe MDL2 Assets" Content="&#xE71D;" Click="Menu_Click" FontSize="40" Grid.Row="0"/>
-            <Button Name="Back" MinWidth="300" MinHeight="720" RelativePanel.AlignLeftWithPanel="True" Click="Back_Click" Background="Transparent"/>
+            <Button Name="Back" MinWidth="900" MinHeight="3300" RelativePanel.AlignLeftWithPanel="True" Click="Back_Click" Background="Transparent"/>
 
             <SplitView DisplayMode="Overlay" Name="MySplitView" RelativePanel.AlignHorizontalCenterWith="Menu" RelativePanel.Below="Menu" Width="115" Height="200">
                 <SplitView.Pane>
@@ -44,14 +52,6 @@
                     <TextBlock Name="MyTextBlock"/>
                 </SplitView.Content>
             </SplitView>
-            <StackPanel RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" Orientation="Vertical">
-                <TextBlock Name ="illustrations" Text="Illustrations by Jennifer Lee and Julie White" 
-                       FontSize="160" FontFamily="Viner Hand ITC" FontWeight="Bold" VerticalAlignment="Center"/>
-                <TextBlock Text="Coding by Daniel Choi and Aashna Wadhwa"
-                       FontSize="160" FontFamily="Viner Hand ITC" FontWeight="Bold" VerticalAlignment="Center"/>
-                <TextBlock Text="Voices by Daniel Choi"
-                       FontSize="160" FontFamily="Viner Hand ITC" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </StackPanel>
         </RelativePanel>
 
     </Grid>
