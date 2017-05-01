@@ -7,7 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="Aquamarine">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FFFFC000" Offset="0.243"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -41,7 +47,7 @@
             <StackPanel RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" Orientation="Vertical">
                 <TextBlock Name ="illustrations" Text="Illustrations by Jennifer Lee and Julie White" 
                        FontSize="45" FontFamily="Viner Hand ITC" FontWeight="Bold"/>
-                <TextBlock Text="Illustrations by Daniel Choi and Aashna Wadhwa"
+                <TextBlock Text="Coding by Daniel Choi and Aashna Wadhwa"
                        FontSize="45" FontFamily="Viner Hand ITC" FontWeight="Bold"/>
             </StackPanel>
         </RelativePanel>

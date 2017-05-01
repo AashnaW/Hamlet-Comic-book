@@ -56,6 +56,8 @@
                     </SplitView.Content>
                 </SplitView>
             </RelativePanel>
+            <TextBlock FontSize="24" Text="I hope that the people of Denmark do not just think of me as the Prince who went mad after his father's death. I want Horatio to tell everyone the truth so the people can know what truly happened to my father and that I died to avenge him."
+                       VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" Width="670" Height="200" Margin="80, 70, 0, 0"/>
         </Grid>
     </Viewbox>
 </Page>
