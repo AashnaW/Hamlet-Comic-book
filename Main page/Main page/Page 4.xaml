@@ -57,6 +57,9 @@
                     </SplitView.Content>
                 </SplitView>
             </RelativePanel>
+            <TextBlock FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Right" TextWrapping="Wrap" 
+                       Text="I have wronged my son by marrying my brother-in-law but I must support him now!"
+                       Height="160" Margin="0,0,250,100" Width="372"/>
         </Grid>
     </Viewbox>
 </Page>
