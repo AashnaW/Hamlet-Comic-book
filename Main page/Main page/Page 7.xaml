@@ -59,6 +59,8 @@
             </RelativePanel>
             <TextBlock FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap"
                        Text="This man first killed my father and now my mother. He shall die today!" Margin="80,600,0,100" Width="258"/>
+            <TextBlock FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Right" TextWrapping="Wrap"
+                       Text="Noooooooo! Gertrude has revealed that the wine has been poisoned! I knew I should have killed her when I had the chance! My crown, my power, my reputation! She has spoiled everything!" Margin="0,1232,57,836" Width="396" Height="196"/>
         </Grid>
     </Viewbox>
 </Page>

@@ -52,6 +52,8 @@
                     </SplitView.Content>
                 </SplitView>
             </RelativePanel>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="24" 
+                       Text="Claudius: What is happening?? Has Hamlet just picked up the poisoned rapier?! I knew that ignorant Laertes would wreck my plan!" Width="464" Height="180" Margin="0,0,58,66"/>
         </Grid>
     </Viewbox>
 </Page>

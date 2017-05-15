@@ -49,6 +49,8 @@
                     </SplitView.Content>
                 </SplitView>
             </RelativePanel>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="24" 
+                       Text="Claudius: Oh no! Laertes has been hit! That fool will die and he won't be able to complete his one simple job!" Width="345" Margin="0,0,63,69"/>
         </Grid>
     </Viewbox>
 </Page>

@@ -64,6 +64,8 @@
             Text="Hamlet does not stand a chance against me. He will die today." Width="358"/>
             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,60,100" FontSize="24" Width="150" Height="326"
                        Text="Even though Laertes is more practiced than me at fencing, I have to win this fight for my father!" TextWrapping="Wrap"/>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="496" Height="110" FontSize="24" TextWrapping="Wrap"
+                       Text="Claudius: I know I can't fully count on Laertes, which is why I have my backup plan, but he better not ruin this for me." Margin="70,0,1134,601"/>
         </Grid>
     </Viewbox>
 </Page>

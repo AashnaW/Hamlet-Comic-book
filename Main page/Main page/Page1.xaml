@@ -63,8 +63,8 @@
                            Text="I have to kill Hamlet becuase he killed my father and ruined my family."/>
             <TextBlock FontSize ="24" HorizontalAlignment="Right" Margin="0, 100, 100, 0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Height="171"
                                Text="I have to take revenge on Claudius for my father, even if it requires fighting my friend, Laertes" RenderTransformOrigin="0.487,0.358"/>
-            <TextBlock HorizontalAlignment="Center" Height="139" TextWrapping="Wrap" FontSize="24" VerticalAlignment="Top" Width="191"
-                               Text="Hamlet will finally die so he can no longer get in my way." Margin="880,100,629,0"/>
+            <TextBlock HorizontalAlignment="Center" Height="289" TextWrapping="Wrap" FontSize="24" VerticalAlignment="Top" Width="260"
+                               Text="Finally, Hamlet will die. If he hadn't gone and stuck his nose in my business, I wouldn't need to dispose of him, but my secret must be kept safe. I can't lose my crown and power over a brat." Margin="880,100,560,0"/>
         </Grid>
     </Viewbox>
 </Page>

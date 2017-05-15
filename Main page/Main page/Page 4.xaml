@@ -60,6 +60,8 @@
             <TextBlock FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Right" TextWrapping="Wrap" 
                        Text="I have wronged my son by marrying my brother-in-law but I must support him now!"
                        Height="160" Margin="0,0,250,100" Width="372"/>
+            <TextBlock FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Right" TextWrapping="Wrap" Width="347"
+                       Text="Gertrude is about to drink the poisoned wine, which might make it so Hamlet cannot drink the wine. Should I risk my crown, my plan to kill Hamlet, and my reputation for her? No, it is her fault since she didn't listen to me. Oh well, I can always find another wife. Why doesn't Hamlet just drink the wine already?!" Margin="0,371,68,0"/>
         </Grid>
     </Viewbox>
 </Page>
