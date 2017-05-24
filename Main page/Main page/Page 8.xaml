@@ -63,10 +63,12 @@
                     </SplitView.Content>
                 </SplitView>
             </RelativePanel>
-            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="24"
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="30"
                        Text="Claudius: I can see the anger in his eyes, but my people love me too much and will never let him hurt me!" Margin="1218,785,69,1383" Width="413"/>
-            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="24"
-                       Text="I am Claudius! How dare my people abandon me to be murdered! I was so close! NOOOOOOOO!" Margin="63,0,0,120" Width="354" Height="142"/>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="30"
+                       Text="I am Claudius! How dare my people abandon me to be murdered! I was so close! NOOOOOOOO!" Margin="70,0,0,130" Width="354"/>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="30" Margin="400, 650" Width="400" TextWrapping="Wrap"
+                       Text="Hamlet: Claudius will die the same way my parents did: through poison!"/>
         </Grid>
     </Viewbox>
 </Page>

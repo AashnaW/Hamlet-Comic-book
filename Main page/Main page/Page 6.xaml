@@ -25,7 +25,8 @@
                 <Button Name="Back" MinWidth="750" MinHeight="2200"  RelativePanel.AlignLeftWithPanel="True" Click="Back_Click" Background="Transparent"/>
 
                 <MediaElement x:Name="grunt" Source="Sound/grunt.m4a" AutoPlay="True" Height="200" Width="200" Volume="1" RenderTransformOrigin="3.965,3.216" Margin="1237,246,-1237,-246"/>
-
+                <TextBlock FontSize="30" Margin="300,300" Width="400" TextWrapping="Wrap"
+                           Text="Hamlet: How dare Claduius destroy my whole family. I can no longer waste time contemplating my actions. I will murder him and get revenge for my father and my mother."/>
 
                 <SplitView DisplayMode="Overlay" Name="MySplitView" RelativePanel.AlignHorizontalCenterWith="Menu" RelativePanel.Below="Menu" Width="115" Height="200">
                     <SplitView.Pane>

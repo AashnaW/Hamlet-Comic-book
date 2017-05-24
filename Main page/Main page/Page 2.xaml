@@ -60,12 +60,12 @@
                     </SplitView.Content>
                 </SplitView>
             </RelativePanel>
-            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,70,0,0" TextWrapping="Wrap" Height="100" FontSize="24"
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,70,0,0" TextWrapping="Wrap" FontSize="30"
             Text="Hamlet does not stand a chance against me. He will die today." Width="358"/>
-            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,60,100" FontSize="24" Width="150" Height="326"
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,60,100" FontSize="26" Width="150" Height="326"
                        Text="Even though Laertes is more practiced than me at fencing, I have to win this fight for my father!" TextWrapping="Wrap"/>
-            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="496" Height="110" FontSize="24" TextWrapping="Wrap"
-                       Text="Claudius: I know I can't fully count on Laertes, which is why I have my backup plan, but he better not ruin this for me." Margin="70,0,1134,601"/>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="496" FontSize="30" TextWrapping="Wrap"
+                       Text="Claudius: I know I can't fully count on Laertes, which is why I have my backup plan, but he better not ruin this for me." Margin="100,0,0,542"/>
         </Grid>
     </Viewbox>
 </Page>
