@@ -58,6 +58,9 @@
             </RelativePanel>
             <TextBlock FontSize="24" Text="I hope that the people of Denmark do not just think of me as the Prince who went mad after his father's death. I want Horatio to tell everyone the truth so the people can know what truly happened to my father and that I died to avenge him."
                        VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" Width="670" Height="200" Margin="80, 70, 0, 0"/>
+            <TextBlock FontSize="24" Text="Horatio: If my lord dies, I have no one to serve. There is no need for me to live in this corrupt country. I should follow the man I trust. I won't let you go alone Hamlet."
+                       VerticalAlignment="Top" HorizontalAlignment="Right" TextWrapping="Wrap" Width="533" Height="200" Margin="0,70,74,0"/>
+
         </Grid>
     </Viewbox>
 </Page>

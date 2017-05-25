@@ -62,7 +62,7 @@
             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="24" Width="274"
                        Text="I am a genius; everything is coming together, and Hamlet doesn't suspect a thing. No one even noticed me poison this drink. I can already see myself ruling over my kingdom until the day I die." Margin="469,767,0,1130" Height="303"/>
             <TextBlock FontSize ="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" TextWrapping="Wrap" Margin="0,0,80,60" Width="300"
-                       Text="I wonder what Claduius is putting in that cup."/>
+                       Text="Hamlet, you are doing a great job. Just do not get hurt. I should help him somehow. Wait, what is Claudius putting in that cup?." SelectionChanged="TextBlock_SelectionChanged"/>
         </Grid>
     </Viewbox>
 </Page>

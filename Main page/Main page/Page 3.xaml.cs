@@ -70,6 +70,11 @@ namespace Main_page
             ThirdBorder.BorderBrush = new SolidColorBrush(Colors.Black);
             SoundThree.Play();
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
 
