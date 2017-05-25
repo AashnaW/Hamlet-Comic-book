@@ -26,7 +26,7 @@
 
                 <MediaElement x:Name="grunt" Source="Sound/grunt.m4a" AutoPlay="True" Height="200" Width="200" Volume="1" RenderTransformOrigin="3.965,3.216" Margin="1237,246,-1237,-246"/>
                 <TextBlock FontSize="30" Margin="300,300" Width="400" TextWrapping="Wrap"
-                           Text="Hamlet: How dare Claduius destroy my whole family. I can no longer waste time contemplating my actions. I will murder him and get revenge for my father and my mother."/>
+                           Text="Hamlet: How dare Claduius destroy my whole family. I can no longer waste time contemplating my actions. I will murder him and get revenge for my father and my mother. And I must start by killing off my friend Laertes."/>
 
                 <SplitView DisplayMode="Overlay" Name="MySplitView" RelativePanel.AlignHorizontalCenterWith="Menu" RelativePanel.Below="Menu" Width="115" Height="200">
                     <SplitView.Pane>
@@ -50,8 +50,8 @@
                     </SplitView.Content>
                 </SplitView>
             </RelativePanel>
-            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="24" 
-                       Text="Claudius: Oh no! Laertes has been hit! That fool will die and he won't be able to complete his one simple job!" Width="345" Margin="0,0,63,69"/>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="30" 
+                       Text="Claudius: Oh no! Laertes has been hit! That fool will die and he won't be able to complete his one simple job!" Width="345" Margin="0,0,263,269"/>
         </Grid>
     </Viewbox>
 </Page>

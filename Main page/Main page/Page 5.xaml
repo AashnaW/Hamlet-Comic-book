@@ -52,8 +52,10 @@
                     </SplitView.Content>
                 </SplitView>
             </RelativePanel>
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="30" Margin="80,80" Width="300"
+                       Text="I knew I was correct about Hamlet all along. He could never give Ophelia the happiness she deserves. And he shall finally get the justice he deserves for ruining my family"/>
             <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" TextWrapping="Wrap" FontSize="30" 
-                       Text="Claudius: What is happening?? Has Hamlet just picked up the poisoned rapier?! I knew that ignorant Laertes would wreck my plan!" Width="464" Margin="0,0,58,66"/>
+                       Text="Claudius: What is happening?? Has Hamlet just picked up the poisoned rapier?! I knew that ignorant Laertes would wreck my plan!" Width="464" Margin="0,0,60,70"/>
         </Grid>
     </Viewbox>
 </Page>
